@@ -3,7 +3,7 @@ Lab-8
 
 A program that can run a robot through the maze using the left and front sensor
 
-In this lab, the purpose was to implement the functionality required to move the robot with the use of the infrared sensors. The robots that we utilize have a set of three infrared (IR) emitter and detector pairs on them and are used to bring in analog voltage values for the ADC. The code that I wrote in this lab is used to interpret these incoming voltages to determine whether the robot is approaching a wall in front or on one of its sides.
+In this lab, the purpose was to implement the functionality required to move the robot with the use of the infrared sensors. The robots that we utilize have a set of three infrared (IR) emitter and detector pairs on them and are used to bring in analog voltage values for the ADC. The code that I wrote in this lab is used to interpret these incoming voltages to determine whether the robot is approaching a wall in front or on one of its sides and turn accordingly.
 
 - initializePinOuts()
   * This method initialzies the pins on the robot to be utilized. This is to be called before the robot movement code.
