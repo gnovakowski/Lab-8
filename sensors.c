@@ -26,7 +26,7 @@ unsigned int frontSensor() {
 	__bis_SR_register(CPUOFF + GIE);
 	return ADC10MEM;
 }
-unsigned int leftSensor() {
+unsigned int leftSensor() { 
 	ADC10CTL0 &= ~ENC;
 	ADC10CTL1 = INCH_3;
 	ADC10AE0 |= BIT3;
